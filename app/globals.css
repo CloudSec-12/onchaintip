@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  background-color: #0A0A0A;
+  color: #E8E8E8;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+input::placeholder { color: #555; }
+input:focus { outline: none; }
